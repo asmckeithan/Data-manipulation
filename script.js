@@ -99,11 +99,14 @@ console.log(hrs3)
 
 console.log(`gallons need per hr `)
 const ppg = 3
-const mph1 = 55/30;
-const mph2 = 60/28;
-const mph3 = 75/23;
+const mph1 = (55/30) * ppg;
+const mph2 = (60/28) * ppg;
+const mph3 = (75/23) * ppg;
 console.log(mph1, mph2, mph3)
-
 
 console.log(`How many gallons of fuel you \n will need for the entire trip `)
 
+const tripFuel1 = mph1 * hrs1;
+const tripFuel2 = mph2 * hrs2;
+const tripFuel3 = mph3 * hrs3;
+console.log(tripFuel1,tripFuel2,tripFuel3)
