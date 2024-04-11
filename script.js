@@ -54,7 +54,8 @@ const dontDoThis = ((n1 + n2 + n3 + n4) == 50) &&
 // Part 1
 // Divisible by 5
 let divByfive = (n1 % 5) || (n2 % 5) || (n3 % 5) || (n4 % 5) ==0;
-console.log(divByfive) // True because there is no remainder 
+console.log(divByfive) 
+console.log(` True, because there is no remainder `)
 
 // check if first number is larger than the last
 const lilBig = n1 > n4;
@@ -76,12 +77,15 @@ console.log(timesThird)
 
 // chain link (Combining all together)
 const chainLink = (secNumber * n3) % n4 == 0;
-console.log(chainLink) //true (The first 3 is a break down of each link in the chain. The chain link is just a short version  )
+console.log(chainLink) 
+console.log(`(The first 3 is a break down of each \n link in the chain. The chain link is just a short version  )`) //true 
 
 //Changing isOver25 without !
 const newNumber = n3 -2;
-console.log(isValid)
+console.log(isValid) 
+console.log(`reducing the value of n3 \n offsets the: {!isOver25 result}`); 
 
 
+// Part 2 
 
 
