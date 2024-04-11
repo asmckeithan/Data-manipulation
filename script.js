@@ -58,4 +58,21 @@ console.log(divByfive) // True because there is no remainder
 
 // check if first number is larger than the last
 const lilBig = n1 > n4;
-console.log(lilBig)
+console.log(lilBig) // True 
+
+
+//Subtract the first number from the second number.
+const secNumber = n2 - n1;
+console.log(secNumber)
+
+//Multiply the results by the third number 
+const timesThird = secNumber * n3;
+console.log(timesThird)
+
+// Find the remainder of dividing the result by the fourth number
+const finalResults = timesThird % n4;
+console.log(finalResults)
+
+// chain link (Combining all together)
+const chainLink = (secNumber * n3) % n4 == 0;
+console.log(chainLink)
