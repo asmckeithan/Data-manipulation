@@ -70,9 +70,18 @@ const timesThird = secNumber * n3;
 console.log(timesThird)
 
 // Find the remainder of dividing the result by the fourth number
-const finalResults = timesThird % n4;
-console.log(finalResults)
+// const finalResults = timesThird % n4;nesha85
+
+// console.log(finalResults)
 
 // chain link (Combining all together)
 const chainLink = (secNumber * n3) % n4 == 0;
-console.log(chainLink)
+console.log(chainLink) //true (The first 3 is a break down of each link in the chain. The chain link is just a short version  )
+
+//Changing isOver25 without !
+const newNumber = n3 -2;
+console.log(isValid)
+
+
+
+
