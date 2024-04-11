@@ -88,4 +88,16 @@ console.log(`reducing the value of n3 \n offsets the: {!isOver25 result}`);
 
 // Part 2 
 
+console.log(`Hrs needed to complete the trip`)
+const tripDis = 1500;
+const hrs1 = tripDis/55;
+console.log(hrs1)
+const hrs2 = tripDis/60;
+console.log(hrs2)
+const hrs3 = tripDis/75;
+console.log(hrs3)
+
+
+
+console.log(`How many gallons of fuel you \n will need for the entire trip `)
 
