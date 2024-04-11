@@ -97,6 +97,12 @@ console.log(hrs2)
 const hrs3 = tripDis/75;
 console.log(hrs3)
 
+console.log(`gallons need per hr `)
+const ppg = 3
+const mph1 = 55/30;
+const mph2 = 60/28;
+const mph3 = 75/23;
+console.log(mph1, mph2, mph3)
 
 
 console.log(`How many gallons of fuel you \n will need for the entire trip `)
