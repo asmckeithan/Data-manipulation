@@ -1,3 +1,4 @@
+console.log(" Microphone Check 1 2")
 // The initial numbers that must be verified.
 const n1 = 10;
 const n2 = 15;
@@ -8,6 +9,12 @@ const n4 = 5;
 // This is a fairly simple operation using
 // arithmetic operators and a comparison.
 const isSum50 = (n1 + n2 + n3 + n4) == 50;
+console.log(typeof 42);
+
+const a = 5;
+const b = 10;
+
+
 
 // Check two: at least two odd numbers
 // Here, we use modulus to check if something is odd.
@@ -43,3 +50,7 @@ const dontDoThis = ((n1 + n2 + n3 + n4) == 50) &&
   ((n1 % 2) + (n2 % 2) + (n3 % 2) + (n4 % 2) >= 2) && 
   !(n1 > 25 || n2 > 25 || n3 > 25 || n4 > 25) && 
   (n1 != n2 && n1 != n3 && n1 != n4 && n2 != n3 && n2 != n4 && n3 != n4);
+
+// Part 1
+let divByfive = (n1 % 5) || (n2 % 5) || (n3 % 5) || (n4 % 5) ==0;
+console.log(divByfive)
