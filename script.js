@@ -52,5 +52,10 @@ const dontDoThis = ((n1 + n2 + n3 + n4) == 50) &&
   (n1 != n2 && n1 != n3 && n1 != n4 && n2 != n3 && n2 != n4 && n3 != n4);
 
 // Part 1
+// Divisible by 5
 let divByfive = (n1 % 5) || (n2 % 5) || (n3 % 5) || (n4 % 5) ==0;
-console.log(divByfive)
+console.log(divByfive) // True because there is no remainder 
+
+// check if first number is larger than the last
+const lilBig = n1 > n4;
+console.log(lilBig)
